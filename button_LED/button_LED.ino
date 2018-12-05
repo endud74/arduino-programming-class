@@ -9,7 +9,7 @@ int C;
 int R;
 
 void setup() {
-  // 버튼 확인 위해 시리얼 설정
+  // 버튼 확인 위해 시리얼 연결
   Serial.begin(9600);
   pinMode(7, INPUT);
   pinMode(4, INPUT);

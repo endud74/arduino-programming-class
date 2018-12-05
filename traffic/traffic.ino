@@ -12,6 +12,8 @@ pinMode(G, OUTPUT);
 void loop() {
     digitalWrite(R, HIGH);
     delay(500);
+    // 0 볼트면 전류 흐르지 않음.
+    // 그라운드랑 같으니까 평평한 물이라 보믄됨. 
     digitalWrite(R, LOW);
     digitalWrite(Y, HIGH);
 
