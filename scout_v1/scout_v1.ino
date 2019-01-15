@@ -30,8 +30,9 @@ void loop() {
 //  unsigned long currentMillis = millis();
   
     int value = analogRead(GasPin);
-    Serial.println(value);
-    mySerial.print(value);
+    int temp = value * 10;
+    Serial.println(temp);
+    mySerial.print(temp);
 
     delay(500);
 
